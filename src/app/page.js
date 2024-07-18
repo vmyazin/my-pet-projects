@@ -30,7 +30,7 @@ export default function Home() {
         </div>
       </main>
       <footer className="bg-gray-900 py-4">
-        <div className="container mx-auto text-center">
+        <div className="container mx-auto text-center text-slate-700">
           © 2024 Vasily Simon. All rights reserved.
         </div>
       </footer>
