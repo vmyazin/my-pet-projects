@@ -14,20 +14,24 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ name, description, url }) => 
   return (
     <Link 
       href={url} 
-      target="_blank" 
       rel="noopener noreferrer" 
-      className="contents hover:bg-gray-750"
-    >
+      className="contents"
+      >
       <Card 
-        className="bg-gray-900 transition-colors duration-300 hover:bg-gray-750 p-3 rounded-md"
+        isPressable
+        className="border-2 border-transparent bg-gray-900 transition-all duration-150 hover:border-primary-800 hover:scale-105 hover:bg-gray-750 p-3"
+        classNames={{
+          base: "bg-gray-800 hover:bg-gray-750",
+        }}
       >
         <CardBody>
-          <h3 className="text-lg font-semibold text-lime-500">{name}</h3>
-          <p className="mt-2 text-gray-400">{description}</p>
+          <h3 className="text-lg font-semibold text-primary-400">{name}</h3>
+          <p className="mt-2 text-gray-300">{description}</p>
         </CardBody>
       </Card>
     </Link>
   );
 };
+
 
 export default ProjectCard;
