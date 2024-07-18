@@ -1,4 +1,6 @@
 // src/components/ProjectCard.tsx
+'use client';
+
 import { Card, CardBody, Link } from "@nextui-org/react";
 import React from "react";
 
@@ -10,14 +12,21 @@ interface ProjectCardProps {
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ name, description, url }) => {
   return (
-    <Card>
-      <CardBody>
-        <Link href={url} target="_blank" rel="noopener noreferrer">
-          <h3 className="text-lg font-semibold">{name}</h3>
-        </Link>
-        <p className="mt-2">{description}</p>
-      </CardBody>
-    </Card>
+    <Link 
+      href={url} 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className="contents hover:bg-gray-750"
+    >
+      <Card 
+        className="bg-gray-900 transition-colors duration-300 hover:bg-gray-750 p-3 rounded-md"
+      >
+        <CardBody>
+          <h3 className="text-lg font-semibold text-lime-500">{name}</h3>
+          <p className="mt-2 text-gray-400">{description}</p>
+        </CardBody>
+      </Card>
+    </Link>
   );
 };
 

@@ -1,0 +1,34 @@
+{
+  "projects": [
+    {
+      "name": "IndeeCast",
+      "description": "A podcast publishing tool",
+      "url": "https://www.indeecast.com"
+    },
+    {
+      "name": "LittleExtra",
+      "description": "Tipping technology for waiters and other tipped workers",
+      "url": "https://www.littleextra.co"
+    },
+    {
+      "name": "Workflow Checklists",
+      "description": "Checklist management tool with templates",
+      "url": "https://meta-ad-checklist.pages.dev/app"
+    },
+    {
+      "name": "CodeBuddy",
+      "description": "AI-powered coding assistant for developers",
+      "url": "https://codebuddy.example.com"
+    },
+    {
+      "name": "EcoShop",
+      "description": "Marketplace for eco-friendly products",
+      "url": "https://ecoshop.example.com"
+    },
+    {
+      "name": "MoodTunes",
+      "description": "Music recommendation based on your mood",
+      "url": "https://moodtunes.example.com"
+    }
+  ]
+}
