@@ -8,7 +8,12 @@
     {
       "name": "LittleExtra",
       "description": "Tipping technology for waiters and other tipped workers",
-      "url": "https://www.littleextra.co"
+      "url": "https://littleextra.co"
+    },
+    {
+      "name": "Investment Plan Dashboard",
+      "description": "An investment strategy focused on receiving dividends",
+      "url": "https://investplan.rapidsystemshub.com/"
     },
     {
       "name": "Workflow Checklists",
@@ -16,18 +21,18 @@
       "url": "https://meta-ad-checklist.pages.dev/app"
     },
     {
-      "name": "CodeBuddy",
-      "description": "AI-powered coding assistant for developers",
-      "url": "https://codebuddy.example.com"
+      "name": "YouTube: Explore Freedom",
+      "description": "My travel vlog about the digital nomad journey",
+      "url": "https://www.youtube.com/@xxfreedom"
     },
     {
-      "name": "EcoShop",
-      "description": "Marketplace for eco-friendly products",
-      "url": "https://ecoshop.example.com"
+      "name": "Happy Maybe Podcast",
+      "description": "Podcast with Nikita about life and happiness",
+      "url": "https://happymaybe.com"
     },
     {
-      "name": "MoodTunes",
-      "description": "Music recommendation based on your mood",
+      "name": "Технологии и жизнь",
+      "description": "Подкаст о современной технологиях, жизни, философии, и путешествиях.",
       "url": "https://moodtunes.example.com"
     }
   ]
