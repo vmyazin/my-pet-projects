@@ -26,7 +26,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ name, description, url }) => 
       >
         <CardBody>
           <h3 className="text-lg font-semibold text-primary-400">{name}</h3>
-          <p className="mt-2 text-gray-300">{description}</p>
+          <p className="mt-2 text-gray-400">{description}</p>
         </CardBody>
       </Card>
     </Link>
