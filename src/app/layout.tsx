@@ -26,14 +26,13 @@ export default function RootLayout({
           autoPlay
           loop
           muted
-          controls
           playsInline
           className="fixed top-0 left-0 min-w-full min-h-full object-cover z-1"
         >
-          <source src="/videos/tunnel.mp4" type="video/mp4" />
+          <source src="/videos/tunnel-s.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        <div className="fixed top-0 left-0 w-full h-full bg-slate-950 bg-opacity-90 z-2"></div>
+        <div className="fixed top-0 left-0 w-full h-full bg-slate-950 bg-opacity-80 z-2"></div>
         <div className="relative z-10">
           {children}
         </div>
