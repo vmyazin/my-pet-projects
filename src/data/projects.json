@@ -3,37 +3,44 @@
     {
       "name": "IndeeCast",
       "description": "A podcast publishing tool",
-      "url": "https://www.indeecast.com"
+      "url": "https://www.indeecast.com",
+      "logoUrl": "/logos/indeecast-logo.png"
     },
     {
       "name": "LittleExtra",
       "description": "Tipping technology for waiters and other tipped workers",
-      "url": "https://littleextra.co"
+      "url": "https://littleextra.co",
+      "logoUrl": "/logos/littleextra-logo.svg"
     },
     {
       "name": "Investment Plan Dashboard",
       "description": "An investment strategy focused on receiving dividends",
-      "url": "https://investplan.rapidsystemshub.com/"
+      "url": "https://investplan.rapidsystemshub.com/",
+      "logoUrl": "/logos/investment-plan-logo.svg"
     },
     {
       "name": "Workflow Checklists",
       "description": "Checklist management tool with templates",
-      "url": "https://meta-ad-checklist.pages.dev/app"
+      "url": "https://meta-ad-checklist.pages.dev/app",
+      "logoUrl": "/logos/workflow-checklists-logo.svg"
     },
     {
       "name": "YouTube: Explore Freedom",
       "description": "My travel vlog about the digital nomad journey",
-      "url": "https://www.youtube.com/@xxfreedom"
+      "url": "https://www.youtube.com/@xxfreedom",
+      "logoUrl": "/logos/explore-freedom-logo.svg"
     },
     {
       "name": "Happy Maybe Podcast",
       "description": "Podcast with Nikita about life and happiness",
-      "url": "https://happymaybe.com"
+      "url": "https://happymaybe.com",
+      "logoUrl": "/logos/happy-maybe-logo.svg"
     },
     {
       "name": "Технологии и жизнь",
       "description": "Подкаст о современной технологиях, жизни, философии, и путешествиях.",
-      "url": "https://moodtunes.example.com"
+      "url": "https://moodtunes.example.com",
+      "logoUrl": "/logos/tech-and-life-logo.svg"
     }
   ]
 }

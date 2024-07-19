@@ -24,7 +24,13 @@ export default function Home() {
           <div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
               {projects.map((project, index) => (
-                <ProjectCard key={index} {...project} />
+                <ProjectCard
+                  key={project.name}
+                  name={project.name}
+                  description={project.description}
+                  url={project.url}
+                  logoUrl={project.logoUrl}
+                />
               ))}
             </div>
           </div>

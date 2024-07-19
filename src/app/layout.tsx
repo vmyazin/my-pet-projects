@@ -6,8 +6,14 @@ import React from "react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Vasily Simon's Pet Projects",
-  description: "Web Apps That I've built",
+  title: "Vasily Simon's Projects",
+  description: "Web Projects That I've Worked On",
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico", type: "image/x-icon" }
+    ]
+  }
 };
 
 export default function RootLayout({
@@ -17,10 +23,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-        <link rel="alternate icon" href="/favicon.ico" type="image/x-icon" />
-      </head>
       <body className={inter.className}>
         <video
           autoPlay
