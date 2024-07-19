@@ -10,16 +10,17 @@ export default function Home() {
     <div className="min-h-screen flex flex-col">
       <main className="flex-grow container mx-auto px-4 py-8">
         <div className="max-w-4xl mx-auto">
-          <div className='flex w-full justify-space-between'> 
-          <div className='flex flex-col flex-grow'>
-            <h1 className="text-4xl font-bold mb-2 text-gray-100">Vasily Simon</h1>
-            <h2 className="text-2xl mb-2 text-gray-400">Indie Hacker</h2>
-            <p className="mb-8 text-gray-200">Welcome to my project directory. Here are some of my pet projects:</p>
+          <div className='flex w-full justify-space-between'>
+            <div className='flex flex-col flex-grow'>
+              <h1 className="text-4xl font-bold mb-2 text-gray-100">Vasily Simon</h1>
+              <h2 className="text-2xl mb-2 text-gray-400">Indie Creator</h2>
+            </div>
+            <Button href="mailto:productizement@gmail.com" className="bg-lime-500 hover:bg-lime-600 text-black font-bold rounded-md">
+              Contact Me
+            </Button>
           </div>
-          <Button href="mailto:productizement@gmail.com" className="bg-lime-500 hover:bg-lime-600 text-black font-bold rounded-md">
-            Contact Me
-          </Button>
-          </div>
+          <p className="mb-8 text-gray-200">Welcome to my project directory. I code, design user interfaces, record podcasts, produce music, and collaborate with both humans and AI.</p>
+
           <div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
               {projects.map((project, index) => (

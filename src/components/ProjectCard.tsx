@@ -19,7 +19,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ name, description, url }) => 
       >
       <Card 
         isPressable
-        className="border-2 border-transparent bg-gray-900 transition-all duration-150 hover:border-primary-800 hover:scale-105 hover:bg-gray-750 p-3"
+        className="border-2 border-transparent bg-gray-900/90 transition-all duration-150 hover:border-primary-800 hover:scale-105 hover:bg-gray-750 p-3"
         classNames={{
           base: "bg-gray-800 hover:bg-gray-750",
         }}
