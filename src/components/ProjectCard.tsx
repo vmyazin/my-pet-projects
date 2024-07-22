@@ -63,10 +63,13 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ name, description, url, logoU
               />
             ) : null}
             {(!imageLoaded || imageError) && (
-              <svg className="w-10 h-10 mr-3 flex-shrink-0" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="24" cy="24" r="24" fill="#FFFFFF" />
-                <path d="M24 12L28.2426 20.7574L37 25L28.2426 29.2426L24 38L19.7574 29.2426L11 25L19.7574 20.7574L24 12Z" fill="#808080" />
-              </svg>
+              // placeholder img
+              <img
+                src="/logos/placeholder-logo.svg"
+                alt={`${name} logo`}
+                className="w-10 h-10 mr-3 rounded-full object-cover flex-shrink-0"
+              />
+
             )}
             <h3 className="text-lg font-semibold text-primary-400 leading-tight">{name}</h3>
           </div>
