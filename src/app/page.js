@@ -15,7 +15,7 @@ export default function Home() {
               <h1 className="text-4xl font-bold mb-2 text-gray-100">Vasily Simon</h1>
               <h2 className="text-2xl mb-2 text-gray-400">Indie Creator</h2>
             </div>
-            <Button href="mailto:productizement@gmail.com" className="bg-lime-500 hover:bg-lime-600 text-black font-bold rounded-md">
+            <Button href="mailto:productizement@gmail.com" className="bg-lime-900 hover:bg-lime-600 text-lime-200 font-bold rounded-md">
               Contact Me
             </Button>
           </div>
