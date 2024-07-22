@@ -4,13 +4,27 @@
       "name": "IndeeCast",
       "description": "A podcast publishing tool",
       "url": "https://www.indeecast.com",
-      "logoUrl": "/logos/indeecast-logo.png"
+      "logoUrl": "/logos/indeecast-logo.png",
+      "collaborators": [
+        {
+          "name": "Dmitri Zdorov",
+          "webLink": "https://www.dimka.com",
+          "avatar": "/avatars/dimka.jpg"
+        }
+      ]
     },
     {
       "name": "LittleExtra",
       "description": "Tipping technology for waiters and other tipped workers",
       "url": "https://littleextra.co",
-      "logoUrl": "/logos/littleextra-logo.svg"
+      "logoUrl": "/logos/little-extra-logo.svg",
+      "collaborators": [
+        {
+          "name": "Misha Petrov",
+          "webLink": "https://www.travcave.ru",
+          "avatar": "/avatars/misha.jpg"
+        }
+      ]
     },
     {
       "name": "Investment Plan Dashboard",
@@ -28,7 +42,7 @@
       "name": "YouTube: Explore Freedom",
       "description": "My travel vlog about the digital nomad journey",
       "url": "https://www.youtube.com/@xxfreedom",
-      "logoUrl": "/logos/explore-freedom-logo.svg"
+      "logoUrl": "/logos/explore-freedom-logo.jpg"
     },
     {
       "name": "Happy Maybe Podcast",
