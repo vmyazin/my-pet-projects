@@ -45,16 +45,16 @@
       "logoUrl": "/logos/explore-freedom-logo.jpg"
     },
     {
+      "name": "Подкаст 'Технологии и жизнь'",
+      "description": "Подкаст о современной технологиях, жизни, философии, и путешествиях.",
+      "url": "https://techlifepodcast.com/",
+      "logoUrl": "/logos/techlife-logo.svg"
+    },
+    {
       "name": "Happy Maybe Podcast",
       "description": "Podcast with Nikita about life and happiness",
       "url": "https://happymaybe.com",
       "logoUrl": "/logos/happy-maybe-logo.svg"
-    },
-    {
-      "name": "Технологии и жизнь",
-      "description": "Подкаст о современной технологиях, жизни, философии, и путешествиях.",
-      "url": "https://moodtunes.example.com",
-      "logoUrl": "/logos/tech-and-life-logo.svg"
     }
   ]
 }
