@@ -30,6 +30,7 @@ export default function Home() {
                   description={project.description}
                   url={project.url}
                   logoUrl={project.logoUrl}
+                  collaborators={project.collaborators}
                 />
               ))}
             </div>

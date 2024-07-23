@@ -2,7 +2,7 @@
   "projects": [
     {
       "name": "IndeeCast",
-      "description": "A podcast publishing tool",
+      "description": "A podcast publishing tool: episode management",
       "url": "https://www.indeecast.com",
       "logoUrl": "/logos/indeecast-logo.png",
       "collaborators": [
@@ -45,16 +45,30 @@
       "logoUrl": "/logos/explore-freedom-logo.jpg"
     },
     {
-      "name": "Подкаст 'Технологии и жизнь'",
-      "description": "Подкаст о современной технологиях, жизни, философии, и путешествиях",
+      "name": "Технологии и жизнь",
+      "description": "Подкаст о технологиях, жизни, философии, и путешествиях",
       "url": "https://techlifepodcast.com/",
-      "logoUrl": "/logos/techlife-logo.svg"
+      "logoUrl": "/logos/techlife-logo.svg",
+      "collaborators": [
+        {
+          "name": "Dmitri Zdorov",
+          "webLink": "https://www.dimka.com",
+          "avatar": "/avatars/dimka.jpg"
+        }
+      ]
     },
     {
       "name": "Happy Maybe Podcast",
       "description": "Podcast with Nikita about life and happiness",
       "url": "https://happymaybe.com",
-      "logoUrl": "/logos/happy-maybe-logo.svg"
+      "logoUrl": "/logos/happy-maybe-logo.svg",
+      "collaborators": [
+        {
+          "name": "Nikita Chepanov",
+          "webLink": "https://www.chepanov.com",
+          "avatar": "/avatars/nikita.jpg"
+        }
+      ]
     }
   ]
 }
