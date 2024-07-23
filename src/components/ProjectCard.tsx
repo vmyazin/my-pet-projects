@@ -97,7 +97,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                   <NextUILink
                     key={index}
                     href={collaborator.webLink}
-                    className="mr-2 mb-1 text-sm text-primary-500 hover:text-primary-200"
+                    className="mr-2 mb-1 text-sm text-gray-300 hover:text-primary-200"
                     rel="noopener noreferrer"
                     onClick={(e) => e.stopPropagation()}
                   >
